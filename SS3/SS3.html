@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Đây là nơi khai báo, viết code CSS tổng -->
+    <style>
+        /* p {
+            color: red;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        div p{
+            color: lightblue;
+        }
+        div div p{
+            color: purple;
+        } */
+
+        /* div > p{
+            color: green;
+        } */
+    </style>    
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- <p>Đây là một đoạn văn bản</p>
+    <p>Đây là một thẻ p thứ 2</p> -->
+
+    <p style="color: #fff; background-color: brown;">Đây là thẻ p đầu tiên không nằm trong div</p>
+
+    <div>
+        <p>Đây là thẻ p thứ nhất trong thẻ div</p>
+        <p>Đây là thẻ p thứ hai trong thẻ div</p>
+        <p>Đây là thẻ p thứ ba trong thẻ div</p>
+        <div>
+            <!-- thẻ p cần đổi màu tím -->
+            <p style="padding: 50px; 
+            border: 5px solid black;
+            margin: 10px 15px 30px 40px;
+            ">Đây là thẻ p thuộc hàng cháu trong gia phả</p> 
+        </div>
+    </div>
+
+</body>
+
+</html>
