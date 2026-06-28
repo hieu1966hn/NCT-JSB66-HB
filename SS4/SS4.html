@@ -10,16 +10,30 @@
 
     <style>
         /* Đây là nơi sử dụng Internal CSS */
-        h1{
+        h1 {
             color: blue;
         }
 
         /* Khởi tạo ID Selector */
-        #hello{
+        #hello {
             color: blueviolet;
             background-color: black;
             font-size: larger;
             font-family: 'Times New Roman', Times, serif;
+        }
+
+        /* Khởi tạo Class Selector */
+        .square {
+            width: 300px;
+            height: 300px;
+            background-color: coral;
+        }
+
+        .circle {
+            background-color: rgb(40, 89, 225);
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
         }
     </style>
 </head>
@@ -34,10 +48,14 @@
     <p style="font-style: italic; text-decoration: underline;">Đây là thẻ p có chữ in nghiêng và gạch chân phía dưới</p>
     <p>Đây là thẻ p bình thường!!!</p> -->
 
-    <!-- Ví dụ về CSS Selector -->
-     <h1 id="hello">CSS Selector Example</h1>
-     <h2 id="hello">CSS Selector Example 2</h2>
+    <!-- Ví dụ về CSS Selector: ID-->
+    <h1 id="hello">CSS Selector Example</h1>
+    <h2>CSS Selector Example 2</h2>
 
+
+    <!-- Ví dụ về CSS Selector: ID-->
+    <div class="square"></div>
+    <div class="circle"></div>
 
 </body>
 
