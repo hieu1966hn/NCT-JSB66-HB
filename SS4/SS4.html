@@ -83,6 +83,25 @@
             height: 200px;
             background-color: rgb(43, 226, 43);
         }
+
+        #Relative{
+            position: relative;
+            /* top: 216px; */
+            background-color: brown;
+            color: white;
+        }
+        #div-father{
+            position: relative;
+        }
+
+        #Absolute{
+            position: absolute;
+            background-color: chocolate;
+            top: 0px;
+            /* left: 0; */
+            right: 0;
+        }
+
     </style>
 
     <header>
@@ -94,10 +113,10 @@
     </header>
 
     <div id="div">Thẻ div</div>
-    <div>
-        <p>Nội dung 1</p>
-        <p>Nội dung 2</p>
-        <p>Nội dung 3</p>
+    <div id="div-father">
+        <p id="Relative">Position: Relative;</p>
+        <p id="Absolute">Position: Absolute;</p>
+        <p id="Fixed">Position: Fixed;</p>
     </div>
 
 </body>
